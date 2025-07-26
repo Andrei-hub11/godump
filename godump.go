@@ -619,6 +619,6 @@ func detectColor() bool {
 	if os.Getenv("FORCE_COLOR") != "" {
 		return true
 	}
-	
+
 	return isTerminal(os.Stdout)
 }
